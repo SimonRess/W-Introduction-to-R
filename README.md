@@ -2,9 +2,8 @@
 
 ### Files needed to be (in main folder) for Binder:
 [Manual](https://github.com/alan-turing-institute/the-turing-way/blob/master/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder-r.md)
-- .gitlab-ci.yml
-- runtime.txt
-- install.R
+- runtime.txt (with r-YYYY-MM-DD on the first line, where YYYY-MM-DD is the release date of the version you want to use)
+- install.R (install packages when the binder environment initialized)
 
 
 ## Welcome to GitHub Pages
