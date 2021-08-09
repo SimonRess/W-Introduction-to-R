@@ -5,7 +5,7 @@
 - runtime.txt (with r-YYYY-MM-DD on the first line, where YYYY-MM-DD is the release date of the version you want to use)
 - install.R (install packages when the binder environment initialized)
 - .gitlab-ci.yml:
-``` R
+``` 
   pages:
     stage: deploy
     script:
